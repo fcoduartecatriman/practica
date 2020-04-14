@@ -2,7 +2,7 @@ import React, { Fragment,useState } from 'react';
 import Header from './componentes/Header';
 import Footer from './componentes/Footer';
 import Producto from './componentes/Producto';
-
+import Carrito from './componentes/Carrito';
 
 function App() {
 
@@ -32,6 +32,10 @@ const fecha = new Date().getFullYear();
         agregarProducto={agregarProducto}/>
 
       ))}
+      
+      <Carrito 
+      carrito={carrito}/>
+
       <Footer
       fecha={fecha} />
      </Fragment>

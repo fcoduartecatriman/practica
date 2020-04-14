@@ -10,4 +10,4 @@ function Header({titulo}){
 
 export default Header;
 
-import React from 'react';
+
