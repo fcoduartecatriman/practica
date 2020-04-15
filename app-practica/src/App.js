@@ -34,7 +34,8 @@ const fecha = new Date().getFullYear();
       ))}
       
       <Carrito 
-      carrito={carrito}/>
+      carrito={carrito}
+      agregarProducto={agregarProducto}/>
 
       <Footer
       fecha={fecha} />
